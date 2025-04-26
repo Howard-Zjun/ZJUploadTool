@@ -1,4 +1,4 @@
-能控制线程数量和重试次数的上传工具
+能控制传输上限和重试次数的工具
 DispatchSemaphore
 DispatchQueue
 DispatchGroup
