@@ -1,1 +1,4 @@
 能控制线程数量和重试次数的上传工具
+DispatchSemaphore
+DispatchQueue
+DispatchGroup
