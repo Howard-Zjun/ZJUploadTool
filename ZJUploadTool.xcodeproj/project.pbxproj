@@ -6,30 +6,23 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		EB96708F2DBCDC0300283358 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9670852DBCDC0300283358 /* AppDelegate.swift */; };
+		EB9670912DBCDC0300283358 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB96708D2DBCDC0300283358 /* ViewController.swift */; };
+		EB9670922DBCDC0300283358 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB9670862DBCDC0300283358 /* Assets.xcassets */; };
+		EB9670942DBCDC0300283358 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB9670892DBCDC0300283358 /* LaunchScreen.storyboard */; };
+		EB9670972DBCDC1200283358 /* ZJUploadTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB9670962DBCDC1200283358 /* ZJUploadTool.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		EB96706D2DBCDBE800283358 /* ZJUploadTool.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZJUploadTool.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB9670852DBCDC0300283358 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB9670862DBCDC0300283358 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB9670872DBCDC0300283358 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB9670882DBCDC0300283358 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EB96708D2DBCDC0300283358 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB9670962DBCDC1200283358 /* ZJUploadTool.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZJUploadTool.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
-
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		EB96707F2DBCDBEF00283358 /* Exceptions for "ZJUploadTool" folder in "ZJUploadTool" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = EB96706C2DBCDBE800283358 /* ZJUploadTool */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
-/* Begin PBXFileSystemSynchronizedRootGroup section */
-		EB96706F2DBCDBE800283358 /* ZJUploadTool */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				EB96707F2DBCDBEF00283358 /* Exceptions for "ZJUploadTool" folder in "ZJUploadTool" target */,
-			);
-			path = ZJUploadTool;
-			sourceTree = "<group>";
-		};
-/* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
 		EB96706A2DBCDBE800283358 /* Frameworks */ = {
@@ -45,7 +38,7 @@
 		EB9670642DBCDBE800283358 = {
 			isa = PBXGroup;
 			children = (
-				EB96706F2DBCDBE800283358 /* ZJUploadTool */,
+				EB96708E2DBCDC0300283358 /* ZJUploadTool */,
 				EB96706E2DBCDBE800283358 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +49,19 @@
 				EB96706D2DBCDBE800283358 /* ZJUploadTool.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		EB96708E2DBCDC0300283358 /* ZJUploadTool */ = {
+			isa = PBXGroup;
+			children = (
+				EB9670852DBCDC0300283358 /* AppDelegate.swift */,
+				EB9670862DBCDC0300283358 /* Assets.xcassets */,
+				EB9670872DBCDC0300283358 /* Info.plist */,
+				EB9670892DBCDC0300283358 /* LaunchScreen.storyboard */,
+				EB96708D2DBCDC0300283358 /* ViewController.swift */,
+				EB9670962DBCDC1200283358 /* ZJUploadTool.swift */,
+			);
+			path = ZJUploadTool;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -72,9 +78,6 @@
 			buildRules = (
 			);
 			dependencies = (
-			);
-			fileSystemSynchronizedGroups = (
-				EB96706F2DBCDBE800283358 /* ZJUploadTool */,
 			);
 			name = ZJUploadTool;
 			packageProductDependencies = (
@@ -122,6 +125,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB9670922DBCDC0300283358 /* Assets.xcassets in Resources */,
+				EB9670942DBCDC0300283358 /* LaunchScreen.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,10 +137,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EB96708F2DBCDC0300283358 /* AppDelegate.swift in Sources */,
+				EB9670972DBCDC1200283358 /* ZJUploadTool.swift in Sources */,
+				EB9670912DBCDC0300283358 /* ViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB9670892DBCDC0300283358 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB9670882DBCDC0300283358 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		EB9670812DBCDBEF00283358 /* Debug */ = {
@@ -150,9 +169,9 @@
 				INFOPLIST_FILE = ZJUploadTool/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -160,9 +179,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.HowardExplore.ZJUploadTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -178,9 +199,9 @@
 				INFOPLIST_FILE = ZJUploadTool/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.6;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -188,9 +209,11 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.HowardExplore.ZJUploadTool;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
