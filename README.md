@@ -1,4 +1,3 @@
-能控制传输上限和重试次数的工具
-DispatchSemaphore
-DispatchQueue
-DispatchGroup
+1.控制传输上限
+2.控制重试次数  
+（DispatchSemaphore、DispatchQueue、DispatchGroup）
